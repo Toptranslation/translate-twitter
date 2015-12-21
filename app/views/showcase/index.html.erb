@@ -25,7 +25,7 @@
       </ul -->
       <% tweet.translations.each do |translation| %>
       <div class="translation"><% if translation.text.present? %>
-          <span class="service" title="Translated by Google Translate"></span><%= translation.formatted %><% end %></div>
+          <span class="service" title="Translated by Bing Translate"></span><%= translation.formatted %><% end %></div>
       <% end %>
       <div class="thumb">
         <img src="<%= tweet.user && tweet.user.image_url %>" alt="<%= tweet.user && tweet.user.username %>" title="<%= tweet.user && tweet.user.username %>" class="tw_small" />

@@ -21,14 +21,6 @@ group :development, :test do
   gem 'fudge'
   gem 'sqlite3'
   gem 'webmock'
-
-  # Deploying with Capistrano
-  gem 'capistrano', require: false
-  gem 'capistrano-rails', require: false
-
-  gem 'capistrano-rbenv', require: false
-  gem 'capistrano-bundler', require: false
-  gem 'capistrano3-unicorn', require: false
 end
 
 group :production do

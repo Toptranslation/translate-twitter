@@ -5,8 +5,6 @@
 {<img src="https://gemnasium.com/cpetschnig/translate-twitter.png" alt="Dependency Status" />}[https://gemnasium.com/cpetschnig/translate-twitter]
 {<img src="https://coveralls.io/repos/cpetschnig/translate-twitter/badge.png?branch=master" alt="Coverage Status" />}[https://coveralls.io/r/cpetschnig/translate-twitter]
 
-Application is running at http://tera.cc/
-
 === Install admin user
 
 After the setup of the database, you need to manually create a new admin user.

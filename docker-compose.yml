@@ -7,8 +7,6 @@ services:
     environment:
       RAILS_ENV: production
     command: cron && tail -f .ruby-version
-    external_links:
-      - Sean
     volumes:
       - /srv/translate_twitter/shared/config/database.yml
       - /srv/translate_twitter/shared/config/ms-translator.yml

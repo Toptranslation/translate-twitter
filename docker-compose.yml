@@ -8,10 +8,10 @@ services:
       RAILS_ENV: production
     command: cron && tail -f .ruby-version
     volumes:
-      - /srv/translate_twitter/shared/config/database.yml
-      - /srv/translate_twitter/shared/config/ms-translator.yml
-      - /srv/translate_twitter/shared/config/twitter-oauth.yml
-      - /srv/translate_twitter/shared/config/environments/production.rb
+      - /srv/translate_twitter/shared/config/database.yml:/translate-twitter/config/database.yml
+      - /srv/translate_twitter/shared/config/ms-translator.yml:/translate-twitter/config/ms-translator.yml
+      - /srv/translate_twitter/shared/config/twitter-oauth.yml:/translate-twitter/config/twitter-oauth.yml
+      - /srv/translate_twitter/shared/config/environments/production.rb:/translate-twitter/config/environments/production.rb
       - /var/log/cowboy_universe/translate-twitter:/translate-twitter/log
 
 networks:

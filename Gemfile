@@ -2,7 +2,7 @@ source 'https://rubygems.org/'
 
 gem 'rails', '~> 3.2.22'
 gem 'mysql2', '~> 0.3.10'
-gem 'twitter', :require => false
+gem 'twitter', '~> 6.1'
 gem 'activeadmin'
 gem 'omniauth-twitter'
 gem 'bing_translator'

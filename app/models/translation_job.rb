@@ -60,6 +60,6 @@ class TranslationJob < ActiveRecord::Base
   private
 
   def translator
-    @translator ||= BingTranslator.new(Rails.configuration.bing_client_id, Rails.configuration.bing_client_secret)
+    @translator ||= BingTranslator.new(Rails.configuration.bing_client_secret)
   end
 end
